@@ -1,0 +1,34 @@
+@font-face {
+    font-family: fontawesome;
+    src: url(./assets/fonts/fa-solid-900.ttf) format(ttf);
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.ul-nav {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    top: -100vh;
+    left: 0px;
+}
+
+.active {
+    color: rgb(254, 129, 25)
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.nav-dropdown:before {
+    font-family: fontawesome;
+}
