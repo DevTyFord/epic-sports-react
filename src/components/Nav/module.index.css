@@ -1,34 +1,18 @@
 @font-face {
     font-family: fontawesome;
-    src: url(./assets/fonts/fa-solid-900.ttf) format(ttf);
+    src: url(../../assets/fontawesome/webfonts/fa-solid-900.ttf) format(ttf);
 }
 
-.nav-menu {
-    display: flex;
-}
-
-.ul-nav {
-    display: flex;
-    z-index: 3;
-    position: relative;
-    top: -100vh;
-    left: 0px;
-}
-
-.active {
-    color: rgb(254, 129, 25)
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    list-style: none;
-}
-
-.nav-dropdown:before {
+@font-face {
     font-family: fontawesome;
+    src: url(../../assets/fontawesome/webfonts/fa-solid-900.woff2) format(woff2);
+}
+
+.navbar {
+    z-index: 4;
+    position: absolute!important;
+    right: 0;
+    left: 0;
+    top: 40px;
+    width: 100%;
 }
