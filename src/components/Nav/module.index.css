@@ -41,7 +41,6 @@
     padding-bottom: none!important;
 }
 
-.navbar-toggler {
-    font-family: fontawesome;
-    content: \f078;
+.fa-solid.fa-chevron-down {
+    font-family: FontAwesome;
 }
