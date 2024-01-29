@@ -1,0 +1,13 @@
+h1 {
+    color:white;
+    text-align: center;
+}
+
+.col-sm {
+    border-radius: 5px;
+    border-style:outset;
+}
+
+p {
+    text-align: center;
+}
