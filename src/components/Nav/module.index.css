@@ -34,3 +34,14 @@
     transition: all calc(var(--mask-duration, 200ms) * 1.5) ease 0s;
     will-change: transform;
 }
+
+.navbar-brand {
+    background-color: rgb(254, 129, 25);
+    padding-top: none!important;
+    padding-bottom: none!important;
+}
+
+.navbar-toggler {
+    font-family: fontawesome;
+    content: \f078;
+}
