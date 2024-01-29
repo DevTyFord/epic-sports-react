@@ -4,7 +4,7 @@ import '../../assets/fontawesome/css/fontawesome.css';
 import '../../assets/css/bootstrap.min.css';
 import Logo from '../../assets/img/sport_logo.png';
 
-function Nav () {
+export default function Nav () {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
@@ -41,4 +41,3 @@ function Nav () {
 </nav>
 )
 }
-export default Nav
