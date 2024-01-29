@@ -1,12 +1,8 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 import './module.index.css';
 import '../../assets/fontawesome/css/fontawesome.css';
 import '../../assets/css/bootstrap.min.css';
 import Logo from '../../assets/img/sport_logo.png';
-
-// const logo = '../../assets/img/sport_logo.png';
 
 function Nav () {
     return (
