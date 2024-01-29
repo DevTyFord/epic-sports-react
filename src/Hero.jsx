@@ -36,7 +36,7 @@ export default function BasicSlider() {
         <Wrapper>
           <Title>Epic Sports</Title>
           <Subtitle>
-            Home to 4K High School sports media, bringing you closer to the action!
+            Home to 4K High School Sports
           </Subtitle>
         </Wrapper>
       </Overlay>
