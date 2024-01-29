@@ -17,3 +17,20 @@
     top: 40px;
     width: 100%;
 }
+
+.index-module_Mask_i5n4j {
+    background-color: rgb(254, 129, 25);
+    overflow: hidden;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    width: calc(var( --slider-width, 100vw) * 0.66);
+    height: calc(var(--slider-height, 100vh) * 0.66);
+    max-width: 33%;
+    max-height: 50%;
+    -webkit-clip-path: polygon(66% 0, 36% 0, 16% 100%, 47% 100%);
+    clip-path: polygon(66% 0, 36% 0, 16% 100%, 47% 100%);
+    transform: translate3d( 33.00%, -50%, 0);
+    transition: all calc(var(--mask-duration, 200ms) * 1.5) ease 0s;
+    will-change: transform;
+}
