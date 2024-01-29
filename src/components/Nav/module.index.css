@@ -9,6 +9,7 @@
 }
 
 .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 4;
     position: absolute!important;
     right: 0;
